@@ -13,3 +13,6 @@ if pay > 1:
         print("Pay:",pay)
 else:
         print("Please enter numeric input")
+
+#Rewrite your pay program using try and except so that your program handles 
+# non-numeric input gracefully by printing a message and exiting the program.
