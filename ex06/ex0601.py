@@ -1,0 +1,15 @@
+str = 'X-DSPAM-Confidence: 0.8475'
+data = str.find('0')
+zero = str[data:]
+#print(zero)
+#datas = str.find('5')
+#print(datas)
+
+number = float(zero)
+print(zero)
+print(number)
+
+#Take the following Python code that stores a string: str = 'X-DSPAM-Confidence: 0.8475'
+#Use find and string slicing to extract the portion of the string after the colon 
+# character and then use the float function to convert the extracted string into a 
+# floating point number.
