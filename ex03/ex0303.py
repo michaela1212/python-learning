@@ -3,7 +3,7 @@ try:
     grade = float(score)
     if grade > 1:
         raise Exception
-    elif grade > 1 and grade >= 0.9:
+    elif grade <= 1 and grade >= 0.9:
         print("A")
     elif grade >= 0.8:
         print("B")
@@ -17,4 +17,5 @@ except:
     print("Bad Score")
 
 #Write a program to prompt for a score between 0.0 and 1.0. If the score is out 
+
 #of range, print an error message. If the score is between 0.0 and 1.0, print a grade.
