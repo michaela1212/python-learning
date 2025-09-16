@@ -10,8 +10,8 @@ for line in hand:
         for numbers in x:
             numbers = int(numbers)
             number.append(numbers)
-            count = count + 1
-print(sum(number)/count)
+
+print(sum(number)/len(number))
 
 #  Write a program to look for lines of the form:
 # New Revision: 39772
